@@ -1,0 +1,24 @@
+#service_image{
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.btn-primary{
+    padding: 2px 21px 7px 18px;
+    color: #fff;
+    background-color: #6861CE;
+    border-color: #4e555b;
+}
+
+.btn-danger{
+    padding: 2px 9px 6px 18px;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.ql-toolbar.ql-snow {
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    padding: 8px;
+  }

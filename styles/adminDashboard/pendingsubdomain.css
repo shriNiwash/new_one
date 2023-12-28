@@ -1,0 +1,65 @@
+.pendingsbdomain-page-inner{
+    padding: 24px 0px;
+    background-color: #FFF9FB;
+    margin-bottom: 60px;
+    padding-left: 10px;
+    
+}
+.pendingsbdomain-page-header{ 
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.pendingsbdomain-page-title{
+    font-size: 23px;
+    font-weight: 600;
+    color: #444444;
+    line-height: 30px
+}
+
+.pendingsbdomain-card{
+    background-color:#ffffff;
+    box-shadow: 2px 6px 15px 0px rgba(69,65,68,0.05);
+    border-radius: 5px;
+}
+.pendingsbdomain-card-header{
+    padding: 1rem 1.25rem;
+    background-color: transparent;
+    border-bottom: 1px solid #ebecec !important;
+}
+
+.pendingsbdomain-card-title{
+    margin: 0;
+    color: #575962;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.pendingsbdomain-card-body{
+    padding: 1.25rem;
+}
+
+
+.bg-warning{
+    color: #ffffff;
+    background-color: #ffad46;
+    max-width: 130px;
+    border-color: #ffad46;
+}
+
+.form-control-sm{
+    border-radius: 3px;
+    width: 132px;
+    outline: none;
+}
+th{
+    font-size: 23px;
+    font-weight: 600;
+    color: #444444;
+    line-height: 30px
+}
+.mr-sm-2{
+    margin-left: -43px;
+    margin-top: 20px;
+}
+

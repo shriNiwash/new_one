@@ -1,0 +1,317 @@
+.page-subdomain{
+    list-style: none;
+    display: inline;
+    width: auto;
+    border-left: 1px solid #efefef;
+    margin-left: 25px;
+    padding-left: 25px;
+    margin-bottom: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 100%;
+
+  
+
+}
+.page-subdomain li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 13px;
+    color: #575962;
+    font-family: 'Lato', sans-serif;
+}
+.page-tittle{
+    margin-bottom: 20px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #444444;
+    line-height: 30px;
+   margin-top: 20px;
+   font-family: 'Lato', sans-serif;
+   padding-left: 25px;
+}
+.page-head{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.favicon-page{
+    margin-left: 20px;
+    width: 990px;
+    margin-top: 10px;
+
+    
+}
+
+.subdomain {
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 10%);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    -webkit-box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 10%);
+    -moz-box-shadow: 2px 6px 15px 0px rgba(69, 65, 78, 0.1);
+
+}
+.subdomain-head{
+    border-bottom: 1px solid #e6e6e6;
+    padding: 1rem 1.25rem;
+    color: #575962;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    word-break: normal;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* .form-group{
+    
+    font-size: 14px;
+    border-color: #ebedf2;
+   
+} */
+.form-control-file{
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.setting-form{
+    display: inline;
+    margin: auto;
+    padding: 0px;
+    width: 400px;
+    margin-top: -33px;
+}
+.image-setting{
+    
+    color: #495057 !important;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 14px !important;
+    white-space: nowrap;
+}
+.image-logo{
+    color: #FFAD46 ;
+}
+
+.showImage{
+    border: 1px solid #dee2e6;
+    width: 25%;
+}
+
+.setting-card{
+    line-height: 30px;
+    font-size: 13px;
+    margin-right: -17px;
+    margin-left: -17px;
+    padding: 11px;
+    
+}
+.card-footer{
+    background-color: transparent;
+    padding: 1.5rem 11rem;
+}
+.btn-success{
+    background: #31CE36 !important;
+    border-color: #31CE36 !important;
+}
+.btn{
+    padding: 0.65rem 1.4rem;
+    font-size: 14px;
+    opacity: 1;
+    border-radius: 3px;
+    
+}
+
+.footer{
+    border-top: 1px solid #eee;
+    padding: 15px;
+    background: #ffffff;
+    position: absolute;
+    width: 100%;
+    
+}
+.container-fluid{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.setting-footer{
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+/* 
+button */
+
+.color-card{
+    border-top: 1px solid #eee;
+    line-height: 30px;
+    font-size: 13px;
+    margin-right: -24px;
+    margin-left: -24px;
+    padding: 11px;
+    
+}
+
+.button-type{
+    background: #31CE36 !important;
+    border-color: #31CE36 !important;
+}
+
+.footer-type{
+    border-top: 1px solid #eee;
+    padding: 15px;
+    background: #ffffff;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.color-footer{
+    background-color: transparent;
+    padding: 0.5rem 33rem;
+}
+
+.form-contro{
+    border: none;
+    height: 49px;
+    
+}
+.form-control-color{
+    max-width: 22rem;
+    border: none;
+    
+}
+
+#exampleColorInput{
+    background-image: none;
+    background-color: rgb(255, 55, 55);
+    color: rgb(255, 255, 255);
+}
+
+
+/* perference */
+
+.selectgroup-pills{
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.selectgroup{
+    display: inline-flex;
+}
+.perferences-group label{
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
+    
+}
+.selectgroup-item{
+    position: relative;
+    font-weight: 400 !important;
+}
+.selectgroup-input{
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.selectgroup-button{
+    border-color: #1572E8;
+    z-index: 1;
+    color: #1572E8;
+    background: rgba(21, 114, 232, 0.15);
+    display: block;
+    border: 1px solid rgba(0, 40, 100, 0.12);
+    text-align: center;
+    padding: 0.375rem 1rem;
+    position: relative;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #9aa0ac;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 14px;
+    line-height: 1.5rem;
+    min-width: 2.375rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.selectgroup-pills .selectgroup-button {
+    border-radius: 50px !important;
+}
+
+.selectgroup-input:checked + .selectgroup-button {
+    border-color: #1572E8;
+    z-index: 1;
+    color: #1572E8;
+    background: rgba(21, 114, 232, 0.15);
+}
+
+
+/* for folloing */
+
+.follower-table{
+    vertical-align: middle;
+    width: 80px;
+    border-style: none;
+}
+.folloing-group{
+    color: #575962;
+}
+.datase{
+    box-shadow: none;
+}
+
+/* for follower */
+
+.follower-group{
+    font-size: 20px;
+    color: #575962;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* admin features */
+.setting-form-features{
+    width: 628px;
+    display: inline;
+    margin: auto;
+    padding: 0px;
+    margin-top: -33px;
+}
+.package{
+   
+    border: 0px;
+    position: relative;
+    padding: 0.95rem 1.25rem;
+    border-radius: 1px;
+    color: #575962;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 14px 0px rgb(18 38 63 / 26%);
+}
+.feature{
+    border-left: 4px solid #FFAD46;
+   
+}

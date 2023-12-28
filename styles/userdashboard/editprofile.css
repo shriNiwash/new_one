@@ -1,0 +1,136 @@
+.edit-page-inner{
+    padding: 24px 32px;
+    background-color: #FFF9FB;
+    margin-bottom: 60px;
+    
+}
+.edit-page-header{ 
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.edit-page-title{
+    font-size: 23px;
+    font-weight: 600;
+    color: #444444;
+    line-height: 30px
+}
+.breadcrumbs{
+    list-style: none;
+    display: inline;
+    width: auto;
+    border-left: 1px solid #efefef;
+    margin-left: 25px;
+    padding-left: 25px;
+    margin-bottom: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 100%;
+    color: #575962;
+    font-size: 13px;
+    
+}
+.breadcrumbs li{
+    display: inline-block;
+}
+.breadcrumbs .nav-separator li {
+    padding-left: 10px;
+}
+.nav-separator{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.edit-card{
+    background-color:#ffffff;
+    box-shadow: 2px 6px 15px 0px rgba(69,65,68,0.05);
+    border-radius: 5px;
+}
+.edit-card-header{
+    padding: 1rem 1.25rem;
+    background-color: transparent;
+    border-bottom: 1px solid #ebecec !important;
+}
+
+.edit-card-title{
+    margin: 0;
+    color: #575962;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.edit-card-body{
+    padding: 1.25rem;
+}
+/* .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+} */
+.form-group{
+    margin-bottom: 0;
+    padding: 10px;
+}
+.form-group label{
+    margin-bottom: 0.5rem;
+    /* font-weight: 600; */
+    white-space: nowrap;
+    color: #495057;
+}
+.form-group label strong{
+    font-weight: 600;
+}
+.form-control{
+    margin-top: 10px;
+}
+.edit-image{
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    height: auto;
+}
+
+.edit-card-footer{
+    line-height: 30px;
+    border-top: 1px solid #ebecec !important;
+    font-size: 13px;
+    padding: 0.75rem 1.25rem;
+}
+.btn-center{
+    text-align: center;
+}
+.btn-success{
+    background: #31CE36 !important;
+    border-color: #31CE36 !important;
+    padding: 0.65rem 1.4rem;
+    font-size: 14px;
+    opacity: 1;
+    border-radius: 3px;
+}
+
+/* res[onsive */
+@media screen and (max-width: 768px){
+.edit-page-header{      
+    flex-direction: column;
+    align-items: normal;
+    position: relative;
+    min-height: 43px;
+    justify-content: center;
+    margin-left: 0px;
+   
+    }
+} 
+
+@media screen and (max-width: 768px){
+    .breadcrumbs{ 
+        margin-left: 0px;
+        padding-top: 15px;
+        padding-left: 5px;
+        padding-bottom: 0px;
+        border-left: 0px;
+    }
+}
+
+

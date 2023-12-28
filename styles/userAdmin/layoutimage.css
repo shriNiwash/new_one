@@ -1,0 +1,42 @@
+header{
+    
+    background:  #222f5a;
+    overflow: hidden;
+}
+
+.image-layout{
+  
+  object-fit: cover;
+   opacity: 0.2;
+}
+
+.hero-header-text{
+  position: absolute;
+  top: 29%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+.layout-title{
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: 800;
+    text-align: center;
+}
+.home-title{
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+}
+.home-title_home{
+    color:#0b0840;
+}
+.home-title_home::after{
+    color: #fff;
+    content: '|';
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 7px;
+}
+

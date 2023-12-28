@@ -1,0 +1,135 @@
+.domain-page-inner{
+    padding: 24px 32px;
+    background-color: #FFF9FB;
+    margin-bottom: 60px;
+    
+}
+.domain-page-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.domain-page-title{
+    font-size: 23px;
+    font-weight: 600;
+    color: #444444;
+    line-height: 30px
+}
+.breadcrumbs{
+    list-style: none;
+    display: inline;
+    width: auto;
+    border-left: 1px solid #efefef;
+    margin-left: 25px;
+    padding-left: 25px;
+    margin-bottom: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 100%;
+    color: #575962;
+    font-size: 13px;
+    
+}
+.breadcrumbs li{
+    display: inline-block;
+}
+.breadcrumbs .nav-separator li {
+    padding-left: 10px;
+}
+.nav-separator{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Dtext-right{
+    text-align: right;
+    cursor: pointer;
+}
+.btn{
+    padding: 0.65rem 1.4rem;
+    font-size: 14px;
+    opacity: 1;
+    border-radius: 3px;
+}
+.domain-card{
+    background-color:#ffffff;
+    box-shadow: 2px 6px 15px 0px rgba(69,65,68,0.05);
+    border-radius: 5px;
+}
+.domain-card-header{
+    padding: 1rem 1.25rem;
+    background-color: transparent;
+    border-bottom: 1px solid #ebecec;
+}
+
+.domain-card-title{
+    margin: 0;
+    color: #575962;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.domain-card-body{
+    padding: 1.25rem;
+}
+/* .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+} */
+.domain-table-responsive{
+    text-decoration: none;
+    border: none;
+    margin-bottom: 20px;
+}
+.borderless th ,.borderless td {
+    border: none;
+    height: 60px;
+    font-weight: 600;
+    border-top: 0 !important;
+    border-bottom:0;
+    font-size: 14px;
+    border-top-width: 0px;
+    padding: 0 25px !important;
+    vertical-align: middle !important;
+    color: #444444;
+}
+.t-bd{
+    background-color: #FFF9FB;
+}
+
+.domain-card{
+    margin-bottom: 30px;
+}
+.domain-card-header strong {
+    color: #444444;
+    font-weight: 600;
+    font-size: 1.0375rem;
+}
+.text-domain {
+    color: #444444;
+    font-weight: 600;
+    font-size: 14px;
+}
+.domain-card-body span{
+    color: #444444;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.table-bordered td{
+    height: 40px;
+    padding: 25px 25px !important;
+    color: #444444;
+    /* font-weight: 600; */
+    font-size: 14px;
+
+}
+p{
+    color: #444444;
+    /* font-weight: 600; */
+    /* font-size: 14px; */
+    font-size: 1.0375rem;
+    line-height: 1.82;
+
+}

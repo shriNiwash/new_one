@@ -1,0 +1,49 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+  
+/* body{
+    font-family: sans-serif;
+} */
+
+.navs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 15px;
+}
+.navs-image{
+    margin-left: 30px;
+}
+.navs-list ul {
+    list-style: none;
+    display: flex;
+    padding: 20px 20px;
+    margin-left: 130px;
+    color: #0a1229;
+    font-size: 15px;
+    font-weight:700;
+   
+    
+}
+.navs-list li{
+    margin: 15px 15px;
+}
+.navs-btn button{
+    background-color:#0b0840;
+    color: #fff;
+    padding: 10px 40px 10px 40px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+.navs-btn button i {
+    color: white;
+
+
+}
+.navs-lang select{
+    height: 45px;
+    width: 100px;
+    margin-right: 100px;
+    font-size: 14px;
+    border-color: aqua;
+    outline: none;
+}

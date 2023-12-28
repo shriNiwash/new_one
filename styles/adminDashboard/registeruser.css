@@ -1,0 +1,53 @@
+.btn-danger{
+    background-color: #f25961;
+}
+.form-control-dn {
+    color: black;
+    border-color: #ebedf2;
+    font-size: 14px;
+    height: calc(2.25rem + 2px);
+    border-radius: 4px;
+    outline: none;
+}
+.bt-success{
+    background-color: #31ce36;
+}
+.form-control-cs{
+    color: black;
+    border-color: #ebedf2;
+    font-size: 14px;
+    /* height: calc(2.25rem + 2px); */
+    height:30px;
+    width: 65px;
+    border-radius: 4px;
+    outline: none;
+}
+.bt-edit{
+    display:list-item;
+   background-color: #007bff;
+   font-size: 11px;
+   padding: 7px 13px;
+   border-color: #007bff ;
+}
+.bt-verified{
+    color: black;
+    border-color: #ebedf2;
+    font-size: 14px;
+    /* height: calc(2.25rem + 2px); */
+    height:32px;
+    width: 100px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.btn-add{
+    position: absolute;
+    top: 186PX;
+    right: 15px;
+    margin-right: 100px;
+}
+.mr-sm-3{
+    width: 200px;
+    margin-left: 138px;
+}
+
